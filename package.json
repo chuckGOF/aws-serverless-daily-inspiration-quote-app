@@ -1,0 +1,14 @@
+{
+  "name": "aws-daily-inspiration-quote",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.585.0",
+    "@aws-sdk/lib-dynamodb": "^3.585.0",
+    "@sendgrid/mail": "^8.1.4",
+    "axios": "^1.7.9",
+    "express": "^4.19.2",
+    "serverless-http": "^3.2.0",
+    "uuid": "^11.0.3"
+  }
+}
