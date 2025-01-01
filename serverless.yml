@@ -7,8 +7,8 @@ service: aws-daily-inspiration-quote
 custom:
   tableName: "users-table-${sls:stage}"
   region: ${self:provider.region}
-  bucketName: "fgbaiye-quotes-bucket-v1"
-  email: "gbaiyefadeel@gmail.com"
+  bucketName: ${env:BUCKET_NAME}
+  email: ${env:EMAIL_FROM}
 
 stages:
   default:
